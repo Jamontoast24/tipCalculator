@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tip Calculator</h1>
+    <form onsubmit="return false">
+      <label class="total">Bill Total</label>
+      <input type="number" id="bill" placeholder="Enter amount..." name="cost" min="1" max="10000">
+    </form>
+    <section class="buttons">
+    <button id="zero">0%</button>
+    <button id="ten">10%</button>
+    <button id="twenty">20%</button>
+    <button id="fifty">50%</button>
+    <button id="seventyfive">75%</button>
+    <button id="hundred">100%</button>
+    <h2 id="result"></h2>
+    <p id="text"></p>
+    </section>
+  </div>
+
+
+  <script src="app.js">
+  </script>
+</body>
+</html>
